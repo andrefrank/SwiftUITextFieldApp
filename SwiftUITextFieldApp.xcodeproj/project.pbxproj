@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6781A952238077B30062B930 /* SwiftUISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6781A951238077B30062B930 /* SwiftUISearchBar.swift */; };
 		67E8DEAC2380516C00B245DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8DEAB2380516C00B245DC /* AppDelegate.swift */; };
 		67E8DEAE2380516C00B245DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8DEAD2380516C00B245DC /* SceneDelegate.swift */; };
-		67E8DEB02380516C00B245DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8DEAF2380516C00B245DC /* ContentView.swift */; };
 		67E8DEB22380516D00B245DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E8DEB12380516D00B245DC /* Assets.xcassets */; };
 		67E8DEB52380516D00B245DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E8DEB42380516D00B245DC /* Preview Assets.xcassets */; };
 		67E8DEB82380516D00B245DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E8DEB62380516D00B245DC /* LaunchScreen.storyboard */; };
+		67E8DEC1238051A300B245DC /* SwiftUITextField_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8DEC0238051A300B245DC /* SwiftUITextField_.swift */; };
+		67E8DEC3238051BC00B245DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8DEC2238051BC00B245DC /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6781A951238077B30062B930 /* SwiftUISearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISearchBar.swift; sourceTree = "<group>"; };
 		67E8DEA82380516C00B245DC /* SwiftUITextFieldApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITextFieldApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E8DEAB2380516C00B245DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67E8DEAD2380516C00B245DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		67E8DEAF2380516C00B245DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67E8DEB12380516D00B245DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67E8DEB42380516D00B245DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67E8DEB72380516D00B245DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67E8DEB92380516D00B245DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E8DEC0238051A300B245DC /* SwiftUITextField_.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUITextField_.swift; sourceTree = "<group>"; };
+		67E8DEC2238051BC00B245DC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,9 @@
 		67E8DEAA2380516C00B245DC /* SwiftUITextFieldApp */ = {
 			isa = PBXGroup;
 			children = (
+				67E8DEBF2380517E00B245DC /* Views */,
 				67E8DEAB2380516C00B245DC /* AppDelegate.swift */,
 				67E8DEAD2380516C00B245DC /* SceneDelegate.swift */,
-				67E8DEAF2380516C00B245DC /* ContentView.swift */,
 				67E8DEB12380516D00B245DC /* Assets.xcassets */,
 				67E8DEB62380516D00B245DC /* LaunchScreen.storyboard */,
 				67E8DEB92380516D00B245DC /* Info.plist */,
@@ -73,6 +77,16 @@
 				67E8DEB42380516D00B245DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67E8DEBF2380517E00B245DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67E8DEC0238051A300B245DC /* SwiftUITextField_.swift */,
+				67E8DEC2238051BC00B245DC /* ContentView.swift */,
+				6781A951238077B30062B930 /* SwiftUISearchBar.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6781A952238077B30062B930 /* SwiftUISearchBar.swift in Sources */,
 				67E8DEAC2380516C00B245DC /* AppDelegate.swift in Sources */,
+				67E8DEC1238051A300B245DC /* SwiftUITextField_.swift in Sources */,
+				67E8DEC3238051BC00B245DC /* ContentView.swift in Sources */,
 				67E8DEAE2380516C00B245DC /* SceneDelegate.swift in Sources */,
-				67E8DEB02380516C00B245DC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +305,7 @@
 				DEVELOPMENT_TEAM = Q429UJSL7U;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUITextFieldApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +326,7 @@
 				DEVELOPMENT_TEAM = Q429UJSL7U;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUITextFieldApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
